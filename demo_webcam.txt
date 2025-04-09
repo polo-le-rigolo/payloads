@@ -1,5 +1,5 @@
 DELAY 1000
 GUI r
 DELAY 500
-STRING C:\Users\unvoy\Downloads\demo_sensibilisation.exe
+STRING C:\Users\test\Downloads\demo_sensibilisation.exe
 ENTER
